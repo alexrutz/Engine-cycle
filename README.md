@@ -1,12 +1,12 @@
-//# engine-cycle
-//This is a student project to calculate the thermodynamic cycle of a an aircraft engine. Additionally, preliminary designs for compressor/turbine blades can be obtained. Work in Progress.
-//
-//All you need to get this project running is Python, PyQt5, SciPy and matplotlib. First, download and install Python from https://www.python.org/downloads/. Open a terminal and open the directory where the engine-cycle source code lies. Type:
+# engine-cycle
+This is a student project to calculate the thermodynamic cycle of a an aircraft engine. Additionally, preliminary designs for compressor/turbine blades can be obtained. Work in Progress.\
+
+All you need to get this project running is Python, PyQt5, SciPy and matplotlib. First, download and install Python from https://www.python.org/downloads/. Open a terminal and open the directory where the engine-cycle source code lies. Type:
 ```
 pip install -r requirements.txt
 ```
-//This will install all the aforementioned packages and depencies in one go.
-//If you want to manually install the packages, you can just install the three packages mentioned above with
+This will install all the aforementioned packages and depencies in one go.
+If you want to manually install the packages, you can just install the three packages mentioned above with
 ```
 pip install -package name-
 ```
@@ -41,18 +41,18 @@ VH1 / VH2: pressure relation between state one and stage two of the high-pressur
 lambda: bypass-ratio
 PI_of:  pressure ratio of the fan
 
-//"Luft/Kerosen": fuel and air characteristics
-//Tref: reference Temperature for air properties
-//pref: reference pressure for air properties
-//RG:   specific gas constant air
-//HU:   calorific value of fuel
-//OTDF: outlet-temperature-distribution-factor
+"Luft/Kerosen": fuel and air characteristics\
+Tref: reference Temperature for air properties\
+pref: reference pressure for air properties\
+RG:   specific gas constant air\
+HU:   calorific value of fuel\
+OTDF: outlet-temperature-distribution-factor\
 
-\\"Prozess" overall cycle parameters
-\\Tt4:   burner exit temperature
-\\PI_K:  overall pressure ration
-\\Schub: thrust
-\\mp2:   inlet mass flow
+"Prozess" overall cycle parameters
+Tt4:   burner exit temperature
+PI_K:  overall pressure ration
+Schub: thrust
+mp2:   inlet mass flow
 
 "Eintrittsmassestrom": this decides whether mp2 is considered core mass flow or the entire massflow that goes through the fan
 Kernstrom:   core mass flow

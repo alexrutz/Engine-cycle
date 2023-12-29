@@ -23,6 +23,10 @@ The preliminary design area for compressor and turbine blades is currently not f
 # Structure
 This programm has a simple structure. The two main components are the input area and the result area. Between these two lies the main code. The "Magie"-button is used to process all the input data with formulas and give out the results.
 
+<p align="center">
+  <img width="450" height="450" src="https://github.com/alexrutz/engine-cycle/blob/main/images/overview.png">
+</p>
+
 # Input Area
 
 This is where you put all the data that you have. If you are missing data for a specific input, you can just leave the default value (stems from GE CF34-81), which will probably be a reasonable gap filler.

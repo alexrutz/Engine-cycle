@@ -1,10 +1,8 @@
 # engine-cycle
 This is a student project to calculate the thermodynamic cycle of a an aircraft engine. Additionally, preliminary designs for compressor/turbine blades can be obtained. Work in Progress.
 
-![T_s_diagram](https://github.com/alexrutz/engine-cycle/blob/main/images/output_cycle_diagramm_T_s.png)
-
 <p align="center">
-	src="https://github.com/alexrutz/engine-cycle/blob/main/images/output_cycle_diagramm_T_s.png">
+  <img width="450" height="450" src="https://github.com/alexrutz/engine-cycle/blob/main/images/output_cycle_diagramm_T_s.png">
 </p>
 
 All you need to get this project running is Python, PyQt5, SciPy and matplotlib. First, download and install Python from https://www.python.org/downloads/. Open a terminal and open the directory where the engine-cycle source code lies. Type:

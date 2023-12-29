@@ -33,6 +33,10 @@ This is where you put all the data that you have. If you are missing data for a 
 
 ### thermodynamic input
 
+<p align="center">
+  <img width="740" height="450" src="https://github.com/alexrutz/engine-cycle/blob/main/images/input_thermo.png">
+</p>
+
 "Standardtag" just defines the ambient conditions. Since most of the time you define altitude and Mach-number, this option is not being processed in the current state. Can be adjusted in the source code.\
 Tamb: ambient temperature\
 pamp: ambient pressure

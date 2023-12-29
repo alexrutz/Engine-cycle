@@ -42,11 +42,11 @@ lambda: bypass-ratio
 PI_of:  pressure ratio of the fan
 
 "Luft/Kerosen": fuel and air characteristics\
-Tref: reference Temperature for air properties\
-pref: reference pressure for air properties\
-RG:   specific gas constant air\
-HU:   calorific value of fuel\
-OTDF: outlet-temperature-distribution-factor\
+Tref:	reference Temperature for air properties\
+pref:	reference pressure for air properties\
+RG:		specific gas constant air\
+HU:		calorific value of fuel\
+OTDF:	outlet-temperature-distribution-factor\
 
 "Prozess" overall cycle parameters
 Tt4:   burner exit temperature

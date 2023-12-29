@@ -4,7 +4,7 @@ This is a student project to calculate the thermodynamic cycle of a an aircraft 
 ![T_s_diagram](https://github.com/alexrutz/engine-cycle/blob/main/images/output_cycle_diagramm_T_s.png)
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/alexrutz/engine-cycle/blob/main/images/output_cycle_diagramm_T_s.png">
+	src="https://github.com/alexrutz/engine-cycle/blob/main/images/output_cycle_diagramm_T_s.png">
 </p>
 
 All you need to get this project running is Python, PyQt5, SciPy and matplotlib. First, download and install Python from https://www.python.org/downloads/. Open a terminal and open the directory where the engine-cycle source code lies. Type:

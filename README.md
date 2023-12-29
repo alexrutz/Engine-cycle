@@ -2,7 +2,7 @@
 This is a student project to calculate the thermodynamic cycle of a an aircraft engine. Additionally, preliminary designs for compressor/turbine blades can be obtained. Work in Progress.
 
 <p align="center">
-  <img width="450" height="450" src="https://github.com/alexrutz/engine-cycle/blob/main/images/output_cycle_diagramm_T_s.png">
+  <img width="740" height="450" src="https://github.com/alexrutz/engine-cycle/blob/main/images/overview.png">
 </p>
 
 All you need to get this project running is Python, PyQt5, SciPy and matplotlib. First, download and install Python from https://www.python.org/downloads/. Open a terminal and open the directory where the engine-cycle source code lies. Type:
@@ -23,15 +23,11 @@ The preliminary design area for compressor and turbine blades is currently not f
 # Structure
 This programm has a simple structure. The two main components are the input area and the result area. Between these two lies the main code. The "Magie"-button is used to process all the input data with formulas and give out the results.
 
-<p align="center">
-  <img width="740" height="450" src="https://github.com/alexrutz/engine-cycle/blob/main/images/overview.png">
-</p>
-
 # Input Area
 
 This is where you put all the data that you have. If you are missing data for a specific input, you can just leave the default value (stems from GE CF34-81), which will probably be a reasonable gap filler.
 
-### thermodynamic input
+### Thermodynamic input
 
 <p align="center">
   <img width="740" height="146" src="https://github.com/alexrutz/engine-cycle/blob/main/images/input_thermo.png">

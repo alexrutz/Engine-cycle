@@ -1,6 +1,8 @@
 # engine-cycle
 This is a student project to calculate the thermodynamic cycle of a an aircraft engine. Additionally, preliminary designs for compressor/turbine blades can be obtained. Work in Progress.
 
+![T_s_diagram](https://github.com/alexrutz/engine-cycle/blob/main/images/output_cycle_diagramm_T_s.png)
+
 All you need to get this project running is Python, PyQt5, SciPy and matplotlib. First, download and install Python from https://www.python.org/downloads/. Open a terminal and open the directory where the engine-cycle source code lies. Type:
 ```
 pip install -r requirements.txt
@@ -59,13 +61,13 @@ Kernstrom:   core mass flow\
 gesamtes TW: through fan
 
 "Wirkungsgrade polytrop" polytropic efficiency of components\
-F:&nbsp;&nbsp;fan\
-VN:&nbsp;&nbsp;low-pressure-compressor\
-VH:&nbsp;&nbsp;high-pressure-compressor (identical for both stages)\
-TH:&nbsp;&nbsp;high-pressure-turbine\
-TN:&nbsp;&nbsp;low-pressure-turbine\
-BK:&nbsp;&nbsp;burner\
-Welle:&nbsp;mechanical shaft efficiency (bearings loss, ...)
+F:     fan\
+VN:    low-pressure-compressor\
+VH     high-pressure-compressor (identical for both stages)\
+TH:    high-pressure-turbine\
+TN:    low-pressure-turbine\
+BK:    burner\
+Welle: mechanical shaft efficiency (bearings loss, ...)
 
 "Druckverluste" total pressure loss over stations in engine\
 BK: burner\

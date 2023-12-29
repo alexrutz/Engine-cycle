@@ -59,13 +59,13 @@ Kernstrom:   core mass flow\
 gesamtes TW: through fan
 
 "Wirkungsgrade polytrop" polytropic efficiency of components\
-F:     fan\
-VN:    low-pressure-compressor\
-VH     high-pressure-compressor (identical for both stages)\
-TH:    high-pressure-turbine\
-TN:    low-pressure-turbine\
-BK:    burner\
-Welle: mechanical shaft efficiency (bearings loss, ...)
+F:&nbsp;&nbsp;fan\
+VN:&nbsp;&nbsp;low-pressure-compressor\
+VH:&nbsp;&nbsp;high-pressure-compressor (identical for both stages)\
+TH:&nbsp;&nbsp;high-pressure-turbine\
+TN:&nbsp;&nbsp;low-pressure-turbine\
+BK:&nbsp;&nbsp;burner\
+Welle:&nbsp;mechanical shaft efficiency (bearings loss, ...)
 
 "Druckverluste" total pressure loss over stations in engine\
 BK: burner\
